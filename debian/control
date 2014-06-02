@@ -12,4 +12,4 @@ Package: szn-util-jsdoc2
 Architecture: any
 Section: Seznam
 Depends: java-runtime
-Description: Google Closure Compiler
+Description: Javascript autodocumentation tool jsdoc-toolkit-2
