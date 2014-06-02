@@ -1,0 +1,15 @@
+Source: szn-util-jsdoc2
+Section: Seznam
+Priority: optional
+Maintainer: Seznam.cz a.s. <opensource@firma.seznam.cz>
+Build-Depends: debhelper (>=8)
+Standards-Version: 3.9.1
+Vcs-Git: git@github.com:seznam/szn-util-jsdoc2.git
+Vcs-Browser: https://github.com/seznam/szn-util-jsdoc2
+
+
+Package: szn-util-jsdoc2
+Architecture: any
+Section: Seznam
+Depends: java-runtime
+Description: Google Closure Compiler
