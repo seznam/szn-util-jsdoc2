@@ -1,3 +1,9 @@
+szn-util-jsdoc2 (1.0.15) UNRELEASED; urgency=low
+
+  * support for @group map-pano
+
+ -- Ondrej Zara <zara@pantau.dev>  Wed, 19 Nov 2014 11:01:52 +0100
+
 szn-util-jsdoc2 (1.0.14) UNRELEASED; urgency=low
 
   * using openjdk-7-jre
