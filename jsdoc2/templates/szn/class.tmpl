@@ -78,9 +78,6 @@
 					</ul>
                 </if>
 
-				<if test="!data.isBuiltin()">{# isn't defined in any file #}
-					<br /><em>Definováno v: </em> {+new Link().toSrc(data.srcFile)+}
-				</if>
 			</p>
 
 <!-- ============================== constructor summary ==================== -->			
@@ -356,10 +353,6 @@
 					</div>
 					<div class="description">
 						{+resolveLinks(member.desc)+}
-						<if test="member.srcFile != data.srcFile">
-							<br />
-							<em>Defined in: </em> {+new Link().toSrc(member.srcFile)+}.
-						</if>
 						<if test="member.author"><br /><em>Autor: </em>{+member.author+}.</if>
 					</div>
 					
@@ -423,10 +416,6 @@
 					</div>
 					<div class="description">
 						{+resolveLinks(member.desc)+}
-						<if test="member.srcFile != data.srcFile">
-							<br />
-							<em>Definováno v: </em> {+new Link().toSrc(member.srcFile)+}.
-						</if>
 						<if test="member.author"><br /><em>Autor: </em>{+member.author+}.</if>
 					</div>
 					
